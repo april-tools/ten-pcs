@@ -1,11 +1,8 @@
 from collections import defaultdict
 from typing import Any, Dict, List, Optional, Tuple, Type, Union
-
 import numpy as np
 import torch
 from torch import Tensor, nn
-import sys
-import os
 
 from probcirc.layers.input import InputLayer
 from probcirc.layers.input.exp_family import ExpFamilyLayer
