@@ -3,9 +3,9 @@ from typing import Any, Optional
 import torch
 from torch import Tensor, nn
 
-from probcirc.layers.layer import Layer
-from probcirc.reparams.leaf import ReparamIdentity
-from probcirc.utils.type_aliases import ReparamFactory
+from tenpcs.layers.layer import Layer
+from tenpcs.reparams.leaf import ReparamIdentity
+from tenpcs.utils.type_aliases import ReparamFactory
 
 
 class SumProductLayer(Layer):

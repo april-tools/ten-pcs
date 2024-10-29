@@ -4,8 +4,8 @@ from typing import Literal, cast
 import torch
 from torch import Tensor
 
-from probcirc.reparams.exp_family import ReparamEFNormal
-from probcirc.utils.type_aliases import ReparamFactory
+from tenpcs.reparams.exp_family import ReparamEFNormal
+from tenpcs.utils.type_aliases import ReparamFactory
 
 from .exp_family import ExpFamilyLayer
 

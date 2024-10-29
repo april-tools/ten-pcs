@@ -3,9 +3,9 @@ from typing import Any, Literal
 
 from torch import Tensor
 
-from probcirc.layers import Layer
-from probcirc.reparams.leaf import ReparamIdentity
-from probcirc.utils.type_aliases import ReparamFactory
+from tenpcs.layers import Layer
+from tenpcs.reparams.leaf import ReparamIdentity
+from tenpcs.utils.type_aliases import ReparamFactory
 
 
 class InputLayer(Layer):

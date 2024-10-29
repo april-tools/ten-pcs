@@ -4,8 +4,8 @@ from typing import Any, Optional
 
 from torch import Tensor, nn
 
-from probcirc.reparams.leaf import ReparamIdentity
-from probcirc.utils.type_aliases import ReparamFactory
+from tenpcs.reparams.leaf import ReparamIdentity
+from tenpcs.utils.type_aliases import ReparamFactory
 
 
 class Layer(nn.Module, ABC):

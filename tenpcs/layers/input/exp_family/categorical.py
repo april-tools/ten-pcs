@@ -5,8 +5,8 @@ import torch
 from torch import Tensor
 from torch.nn import functional as F
 
-from probcirc.reparams.exp_family import ReparamEFCategorical
-from probcirc.utils.type_aliases import ReparamFactory
+from tenpcs.reparams.exp_family import ReparamEFCategorical
+from tenpcs.utils.type_aliases import ReparamFactory
 
 from .exp_family import ExpFamilyLayer
 

@@ -1,5 +1,5 @@
-from probcirc.layers.input.constant import ConstantLayer
-from probcirc.models import TensorizedPC
+from tenpcs.layers.input.constant import ConstantLayer
+from tenpcs.models import TensorizedPC
 
 
 def integrate(circuit: TensorizedPC) -> TensorizedPC:

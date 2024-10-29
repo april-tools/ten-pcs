@@ -4,17 +4,17 @@ import numpy as np
 import torch
 from torch import Tensor, nn
 
-from probcirc.layers.input import InputLayer
-from probcirc.layers.input.exp_family import ExpFamilyLayer
-from probcirc.layers.input.integral import IntegralInputLayer
-from probcirc.layers.layer import Layer
-from probcirc.layers.scope import ScopeLayer
-from probcirc.layers.sum import SumLayer
-from probcirc.layers.sum_product import SumProductLayer
-from probcirc.region_graph import PartitionNode, RegionGraph, RegionNode
-from probcirc.reparams.leaf import ReparamIdentity
-from probcirc.utils.scope import one_hot_variables
-from probcirc.utils.type_aliases import ReparamFactory
+from tenpcs.layers.input import InputLayer
+from tenpcs.layers.input.exp_family import ExpFamilyLayer
+from tenpcs.layers.input.integral import IntegralInputLayer
+from tenpcs.layers.layer import Layer
+from tenpcs.layers.scope import ScopeLayer
+from tenpcs.layers.sum import SumLayer
+from tenpcs.layers.sum_product import SumProductLayer
+from tenpcs.region_graph import PartitionNode, RegionGraph, RegionNode
+from tenpcs.reparams.leaf import ReparamIdentity
+from tenpcs.utils.scope import one_hot_variables
+from tenpcs.utils.type_aliases import ReparamFactory
 
 # TODO: rework docstrings
 

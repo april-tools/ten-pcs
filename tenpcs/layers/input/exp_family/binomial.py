@@ -4,8 +4,8 @@ import torch
 from torch import Tensor
 from torch.nn import functional as F
 
-from probcirc.reparams.leaf import ReparamIdentity
-from probcirc.utils.type_aliases import ReparamFactory
+from tenpcs.reparams.leaf import ReparamIdentity
+from tenpcs.utils.type_aliases import ReparamFactory
 
 from .exp_family import ExpFamilyLayer
 

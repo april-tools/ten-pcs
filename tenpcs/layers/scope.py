@@ -3,8 +3,8 @@ from typing import List
 import torch
 from torch import Tensor
 
-from probcirc.layers import Layer
-from probcirc.region_graph import RegionNode
+from tenpcs.layers import Layer
+from tenpcs.region_graph import RegionNode
 
 # TODO: rework docstring, but do we put this into bookkeeping?
 

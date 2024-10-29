@@ -3,7 +3,7 @@ from typing import Callable, Union
 import torch
 from torch import Tensor
 
-from probcirc.layers.input import InputLayer
+from tenpcs.layers.input import InputLayer
 
 # TODO: rework interface and docstring, the const value should be properly shaped
 

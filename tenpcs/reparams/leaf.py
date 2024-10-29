@@ -3,7 +3,7 @@ from typing import Any, Optional, Sequence, Union
 import torch
 from torch import Tensor, nn
 
-from probcirc.utils.type_aliases import ClampBounds
+from tenpcs.utils.type_aliases import ClampBounds
 
 from .reparam import Reparameterization
 

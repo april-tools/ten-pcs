@@ -3,11 +3,11 @@ from typing import Optional, Tuple
 import torch
 from torch import Tensor
 
-from probcirc.layers.sum_product.sum_product import SumProductLayer
-from probcirc.reparams.leaf import ReparamIdentity
-from probcirc.reparams.reparam import Reparameterization
-from probcirc.utils.log_trick import log_func_exp
-from probcirc.utils.type_aliases import ReparamFactory
+from tenpcs.layers.sum_product.sum_product import SumProductLayer
+from tenpcs.reparams.leaf import ReparamIdentity
+from tenpcs.reparams.reparam import Reparameterization
+from tenpcs.utils.log_trick import log_func_exp
+from tenpcs.utils.type_aliases import ReparamFactory
 
 
 class BaseCPLayer(SumProductLayer):

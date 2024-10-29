@@ -4,10 +4,10 @@ from typing import Any, Literal
 import torch
 from torch import Tensor, nn
 
-from probcirc.layers.input import InputLayer
-from probcirc.reparams.leaf import ReparamIdentity
-from probcirc.reparams.reparam import Reparameterization
-from probcirc.utils.type_aliases import ReparamFactory
+from tenpcs.layers.input import InputLayer
+from tenpcs.reparams.leaf import ReparamIdentity
+from tenpcs.reparams.reparam import Reparameterization
+from tenpcs.utils.type_aliases import ReparamFactory
 
 
 class ExpFamilyLayer(InputLayer):

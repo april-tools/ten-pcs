@@ -2,7 +2,7 @@ from typing import Optional, Protocol, Sequence, TypedDict, Union
 
 from torch import Tensor
 
-from probcirc.reparams.reparam import Reparameterization
+from tenpcs.reparams.reparam import Reparameterization
 
 # Here're all the type defs and aliases shared across the lib.
 # For private types that is only used in one file, can be defined there.

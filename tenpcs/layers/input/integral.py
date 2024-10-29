@@ -2,7 +2,7 @@ from typing import cast
 
 from torch import Tensor
 
-from probcirc.layers.input import InputLayer
+from tenpcs.layers.input import InputLayer
 
 # TODO: rework interface and docstring, all tensors should be properly shaped
 
