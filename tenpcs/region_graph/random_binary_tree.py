@@ -27,6 +27,9 @@ def _partition_node_randomly(
     :param repetition: the repetition index
     :return: a list of partitioned region nodes
     """  # TODO: rework docstring
+    if len(node.scope) == 1:
+        return []
+
     scope = list(node.scope)
     random.shuffle(scope)
 
@@ -92,4 +95,11 @@ def RandomBinaryTree(num_vars: int, depth: int, num_repetitions: int) -> RegionG
                 )
             )
 
+    assert graph.is_smooth
+    assert graph.is_decomposable
+    if num_repetitions == 1:
+        assert graph.is_structured_decomposable
+
     return graph
+
+
